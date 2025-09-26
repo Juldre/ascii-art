@@ -1,0 +1,3 @@
+[workspace]
+resolver = "3"
+members = ["ascii-art", "ascii-art-cli"]

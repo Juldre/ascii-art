@@ -1,0 +1,12 @@
+[package]
+name = "ascii-art-cli"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.100"
+ascii-art = { path = "../ascii-art" }
+clap = { version = "4.5.48", features = ["derive"] }
+clap_complete = "4.5.58"
+colored = "3.0.0"
+image = "0.25.8"
